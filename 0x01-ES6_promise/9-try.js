@@ -1,5 +1,4 @@
-//
-rt default function guardrail(mathFunction) {
+export default function guardrail(mathFunction) {
   const queue = [];
 
   try {
@@ -12,4 +11,3 @@ rt default function guardrail(mathFunction) {
 
   return queue;
 }
-// Now, the longer 
