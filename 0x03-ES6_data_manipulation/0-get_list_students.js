@@ -2,7 +2,7 @@
  * Retrieves a list of students.
  * @returns {{id: Number, firstName: String, location: String}[]}
  */
-function getListStudents()
+export default function getListStudents()
 {
     return [
         { id: 1, firstName: 'Guillaume', location: 'San Francisco' },
