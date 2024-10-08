@@ -1,3 +1,7 @@
+/**
+ * Retrieves a list of students.
+ * @returns {{id: Number, firstName: String, location: String}[]}
+ */
 function getListStudents()
 {
     return [
@@ -8,4 +12,3 @@ function getListStudents()
 }
 
 
-console.log(getListStudents());
